@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "sector_homes",
+  "collectionName": "home_sectors",
   "info": {
-    "singularName": "sector-home",
-    "pluralName": "sector-homes",
-    "displayName": "HomeSector",
-    "description": ""
+    "singularName": "home-sector",
+    "pluralName": "home-sectors",
+    "displayName": "HomeSector"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +15,7 @@
       "type": "string"
     },
     "subtitle": {
-      "type": "text"
+      "type": "string"
     },
     "sectors": {
       "type": "relation",
