@@ -1,5 +1,4 @@
 module.exports = ({ env }) => ({
-  // ...
   email: {
     config: {
       provider: "sendgrid", // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
@@ -13,5 +12,4 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  // ...
 });

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "sector_homes",
+  "info": {
+    "singularName": "sector-home",
+    "pluralName": "sector-homes",
+    "displayName": "HomeSector",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "sectors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sector.sector"
+    }
+  }
+}
