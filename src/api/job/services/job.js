@@ -18,7 +18,8 @@ module.exports = ({ strapi }) => ({
 
       //Calculate pagination metadata
       const totalPages = Math.ceil(totalCount / limit);
-      const currentPage = Math.min(totalPages, Math.max(1, start));
+      // const currentPage = Math.min(totalPages, Math.max(1, start));
+      const currentPage = start / limit + 1;
       const hasPrevPage = currentPage > 1;
       const hasNextPage = currentPage < totalPages;
 

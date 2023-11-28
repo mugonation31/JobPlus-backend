@@ -70,6 +70,10 @@
     },
     "lastName": {
       "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
     }
   }
 }
